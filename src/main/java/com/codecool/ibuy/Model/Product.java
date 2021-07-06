@@ -29,6 +29,7 @@ public class Product {
     private String category;
     ///////////
     private String name;
+    @Column(columnDefinition="TEXT")
     private String description;
     private double Price;
     private String imageUrl;
